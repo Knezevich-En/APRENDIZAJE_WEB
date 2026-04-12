@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Curso de Desarrollo Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Esta es una pagina web sobre mis series favoritas">
+
+</head>
+<body>
+    
+    <!-- Aquí empezaremos a escribir nuestro código HTML (encabezados, párrafos y listas) -->
+     <header>
+        <h1>Mis series favoritas</h1>
+        <p>Esta es una lista de mis series favoritas</p>
+     </header>
+    <main>
+        <ul>
+        <li> <a href="https://es.wikipedia.org/wiki/Breaking_Bad" target="_blank">
+            <span class="badge">🔥</span>
+            Breaking Bad</a> 
+        <br>
+        <img src="https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="200px" alt="Breaking Bad" loading="lazy">
+        </li>
+        
+        <li> <a href="" target="_blank">Game of Thrones</a></li>
+        <li> <a href="" target="_blank">The Office</a></li>
+    </ul>
+
+    <!--Formulario para sugerir una nueva serie-->
+    
+    <form class="formulario" action="">
+        <h2 class="formulario_titulo">Sugiere una nueva serie</h2>
+        <fieldset>
+            <legend>Información de la serie</legend>
+            <label for="nombre-serie">Nombre de la serie:</label>
+            <input type="text" placeholder="Nombre de la serie" id="nombre-serie">
+            <br>
+            <label for="categoria">Categoria</label>
+            <select name="" id="categoria">
+                <option value="accion">Acción</option>
+                <option value="comedia">Comedia</option>
+                <option value="drama">Drama</option>
+                <option value="terror">Terror</option>
+                <option value="ciencia-ficcion">Ciencia Ficción</option>
+            </select>
+            <label for="descripcion-serie">Descripción de la serie:</label>
+            <textarea name="" id="descripcion-serie" cols="30" rows="10"></textarea>
+            <br>
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+    <br>
+    <details>
+        <summary>¿Por qué me gusta Breaking Bad?</summary>
+        <p>Me gusta Breaking Bad por su trama, sus personajes y su desarrollo.</p>
+    </details>
+    <br>
+    <details>
+        <summary>¿Por qué me gusta Game of Thrones?</summary>
+        <p>Me gusta Game of Thrones por su trama, sus personajes y su desarrollo.</p>
+    </details>
+    <br>
+    <details>
+        <summary>¿Por qué me gusta The Office?</summary>
+        <p>Me gusta The Office por su trama, sus personajes y su desarrollo.</p>
+    </details>
+    <a href="mailto:nicolasknezevich@gmail.com">Contacto</a>
+    <table border="1">
+        <tr>
+            <th>TITULO</th>
+            <th>TEMPORADAS</th>
+        </tr>
+        <tr>
+            <td>Breaking Bad</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Game of Thrones</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>The Office</td>
+            <td>9</td>
+        </tr>
+    </table>
+    </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
